@@ -7,9 +7,6 @@ if( NOT TARGET Cinder-spdlog )
 	)
 
 	if( CINDER_MAC )
-		list( APPEND Cinder-spdlog_INCLUDES
-			${CINDER_SPDLOG_PATH}/include/
-		)
 		set( CINDER_MAC_SPDLOG_LIB_PATH
 			${CINDER_SPDLOG_PATH}/lib/macos/
 		)
